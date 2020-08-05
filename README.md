@@ -25,9 +25,9 @@
 ### Getting Started  
 
 >Pré-conditions:  
-
-- yarn  
-- npm  
+>
+> - yarn  
+> - npm  
 
 - clone this repository  
 `git clone https://github.com/cezarcozta/api-mind.git`  
