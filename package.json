@@ -6,7 +6,8 @@
   "author": "César Augusto Costa <cezarcozta@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "tsnd --transpile-only --ignore-watch node_modules src/server.ts"
+    "start": "tsnd --transpile-only --ignore-watch node_modules src/server.ts",
+    "typeorm": "tsnd ./node_modules/typeorm/cli.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.7",
@@ -23,6 +24,8 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0",
+    "typeorm": "^0.2.25"
   }
 }
