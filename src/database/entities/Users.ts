@@ -12,20 +12,21 @@ class Users {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @Column()
+  @Column('varchar')
   name: string;
 
-  @Column()
+  @Column('varchar')
   cpf: string;
 
-  @Column()
+  @Column('varchar')
   email: string;
 
-  @Column()
+  @Column('varchar')
+  // @Exclude()
   password: string;
 
-  @Column()
-  avatar: string;
+  // @Column('varchar')
+  // avatar: string;
 
   @CreateDateColumn()
   created_at: Date;
@@ -38,15 +39,8 @@ class Users {
   //   if (!this.avatar) {
   //     return null;
   //   }
-
-  //   switch (uploadConfig.driver) {
-  //     case 'disk':
-  //       return `${process.env.APP_API_URL}/files/${this.avatar}`;
-  //     case 's3':
-  //       return `https://${uploadConfig.config.aws.bucket}.s3.amazonaws.com/${this.avatar}`;
-  //     default:
-  //       return null;
-  //   }
+  //
+  //   return `${process.env.APP_API_URL}/files/${this.avatar}`;
   // }
 }
 
