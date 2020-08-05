@@ -5,28 +5,29 @@
 ## Techs  
 
 - Language:  
-  -production: JavaScript  
-  -development: TypeScript  
+  - production: JavaScript  
+  - development: TypeScript  
 
 - Database:  
-  -SQLite  
-  -Knex  
-    -transactions  
-    -migrations  
-    -seeds  
+  - SQLite  
+  - Knex  
+    - transactions  
+    - migrations  
+    - seeds  
 
 - Dependecies:  
-  -Production:  
-    -express  
-  -Development:  
-    -Typescript  
-    -ts-node-dev  
+  - Production:  
+    - express  
+  - Development:  
+    - Typescript  
+    - ts-node-dev  
 
 ### Getting Started  
 
 >Pré-conditions:  
-  -yarn  
-  -npm  
+
+- yarn  
+- npm  
 
 - clone this repository  
 `git clone https://github.com/cezarcozta/api-mind.git`  
