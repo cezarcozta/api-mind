@@ -51,5 +51,5 @@
 - César Augusto Costa  
   -@cezarcozta  
   -cezarcozta@gmail.com  
-  -url[https://cezarcozta.com](https://cezarcozta.com)  
+  -[https://cezarcozta.com](https://cezarcozta.com)  
   
