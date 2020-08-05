@@ -44,7 +44,7 @@
 - run the seeds data  
 `yarn knex:seeds`  
 
--run the server  
+- run the server  
 `yarn start`  
 
 #### Author  
