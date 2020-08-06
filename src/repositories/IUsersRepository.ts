@@ -6,6 +6,8 @@ export default interface IUsersRepository {
 
   findByEmail(email: string): Promise<Users | undefined>;
 
+  findByCPF(cpf: string): Promise<Users | undefined>;
+
   store(data: ICreateUserDTO): Promise<Users>;
 
   update(user: Users): Promise<Users>;

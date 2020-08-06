@@ -12,16 +12,16 @@ class Users {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @Column('varchar')
+  @Column()
   name: string;
 
-  @Column('varchar')
+  @Column()
   cpf: string;
 
-  @Column('varchar')
+  @Column()
   email: string;
 
-  @Column('varchar')
+  @Column()
   // @Exclude()
   password: string;
 
